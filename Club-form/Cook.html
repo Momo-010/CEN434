@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cooking Club</title>
+    <link rel="icon" type="image" href="favicon.svg">
+    <link rel="stylesheet" href="cook.css">
+</head>
+
+<body>
+    <div id="bg">
+        <div class="outer-form">
+            <div class="form-side">
+                <div class="header">
+                    <h1>Cooking Club</h1>
+                    <h3>LET US COOK!</h3>
+                </div>
+
+                <div class="content">
+                    <form id="form-body" action="#">
+                        <div class="first-part">
+                            <div class="namebox">
+                                <label for="firstname">First Name</label><br>
+                                <input id="firstname" class="box" type="text" required autofocus>
+                                <label for="lastname">Last Name</label>
+                                <input id="lastname" class="box" type="text" required>
+                                <label for="matric">Matric Number</label>
+                                <input id="matric" class="box" type="text" required>
+                            </div>
+                        
+
+                        </div>
+                        <div class="comment">
+                            <div class="thirdpart">
+                                <label for="experience">Past cooking experience</label>
+                                <textarea id="experience" placeholder="Ever set the kitchen on fire?" cols="50px"></textarea>
+                                <label for="expectation">Favorite dish</label><br>
+                                <textarea id="expectation" placeholder="All of them? Me too"
+                                    cols="50px"></textarea>
+
+                                <input class="submit" type="submit">
+                            </div>
+                            <div class="second-part">
+                                <div class="second1">
+                                    <label for="DoB">Date of Birth</label>
+                                    <input id="DoB" class="smallbox" type="date" required><br>
+                                    <p>Gender</p><br>
+                                    <label for="male"><input id="male" class="gender" type="radio" name="gender"
+                                            required>Male</label>
+                                    <label for="female"><input id="female" class="gender" type="radio"
+                                            name="gender">Female</label> <br>
+                                    <label for="email">Email</label><br>
+                                    <input type="email" class="box" required><br>
+                                    <label for="phone">Phone Number</label><br>
+                                    <input type="tel" class="box" required>
+                                </div>
+                                <div class="select-part">
+                                    <div class="other-part">
+                                        <label for="room">Room:</label>
+                                        <input id="room" placeholder="Room Number" class="smallbox" type="text"
+                                            required>
+                                        <label for="level">Level:</label>
+                                        <select id="level" class="smallbox" required>
+                                            <option disabled selected value>Select level</option>
+                                            <option value="100">100</option>
+                                            <option value="200">200</option>
+                                            <option value="300">300</option>
+                                            <option value="400">400</option>
+                                            <option value="500">500</option>
+                                        </select>
+                                    </div>
+
+
+                                    <div id="selectionpart">
+                                        <label id="select-id" for="selection">Hall</label>
+                                        <select id="selection" class="smallbox" required>
+                                            <option disabled selected value>Select your hall</option>
+                                            <option value="Paul">Paul</option>
+                                            <option value="Peter">Peter</option>
+                                            <option value="Joseph">Joseph</option>
+                                            <option value="Daniel">Daniel</option>
+                                            <option value="John">John</option>
+                                            <option value="Deborah">Deborah</option>
+                                            <option value="Dorcas">Dorcas</option>
+                                            <option value="Mary">Mary</option>
+                                            <option value="Esther">Esther</option>
+                                            <option value="Lydia">Lydia</option>
+                                        </select><br>
+                                        <label for="college">College</label>
+                                        <select id="college" class="smallbox" required>
+                                            <option disabled selected value>Select College</option>
+                                            <option value="COE">COE</option>
+                                            <option value="CMSS">CMSS</option>
+                                            <option value="CLDS">CLDS</option>
+                                            <option value="CST">CST</option>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
